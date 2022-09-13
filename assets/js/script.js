@@ -13,14 +13,17 @@ function calcPI(iterations){
 
 let fibList = [];
 function getFibList (howMany) {
-    for (i - 0; 1 < howMany; i++){
+    for (i = 0; i < howMany; i++){
         fibList[i] = fib(i);
     }
+    fibList.shift();
+    document.getElementById("output1")
+    .value = fibList.join(", ");
 }
 
 function fib (whichNum){
      let num1 = 1, num2 = 0, temp,
-     1 = 0;
+     i = 0;
      while(i < whichNum){
          temp = num1;
          num1 = num1 + num2;
