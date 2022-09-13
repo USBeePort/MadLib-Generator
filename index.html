@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MadLib Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="mainstyle.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
 
 </head>
 <body>
@@ -48,16 +48,14 @@
            <button type="submit" class="btn-lg" 
            onClick="alert('Hello')">Hello</button>
            <button type="submit" class="btn-lg" 
-           onClick="calcPI()">Get PI</button>
+           onClick="calcPI(100000000)">Get PI</button>
            <button type="submit" class="btn-lg" 
-           onClick="getFibList()">Get Fibonacci</button>
+           onClick="getFibList(20)">Get Fibonacci</button>
            <button type="submit" class="btn-lg" 
            onClick="madLibGenerator()">Generate MadLib</button><br><br>
            <div class="input-group">
-               <div class="input-group"
-               <div class="input-group-prepend">
-                   <span class="input-group-text">
-                   </span>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"></span>
                </div>
                <textarea id="output1" rows="18" 
                class="form-control"></textarea>
